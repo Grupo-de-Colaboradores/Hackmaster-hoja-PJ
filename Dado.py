@@ -1,4 +1,4 @@
-!# /usr/bin/python
+#! /usr/bin/python
 
 """
  Este programa simula la tirada de un dado.
@@ -8,7 +8,7 @@
 import random
 
 #Función dado
-def Dado(min = 1, max):
+def Dado(max, min = 1):
     #Calcula un valor aleatorio entre min y max. Normalmente es necesario
     #sólo dar el valor máximo, pero también puedes dar el valor mínimo.
     #Ejemplos: Dado(20), un dado de 20 caras
