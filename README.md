@@ -11,3 +11,6 @@ Finalmente, con toda la información, imprimirá una hoja de personaje en format
 El lenguaje de programación será python 3. Yo soy novato en este lenguaje, y este proyecto me servirá como práctica :))
 
 Si quieres contribuir-enseñar python, bienvenido-a. 
+
+
+Nota: trabajo en linux, con [anaconda] (https://www.continuum.io/downloads) para instalar [python] (https://www.python.org/) versión 3, y [atom] (https://atom.io/) como editor de texto.
