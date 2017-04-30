@@ -12,6 +12,10 @@ def Dado (max, min = 1):
     Ejemplos: Dado(20), un dado de 20 caras; Dado(7,2), un dado entre 2 y 7"""
     return random.randint(min, max);
 
+#Primero, agrupamos las características en un tuple
+características = ("Fue", "Des", "Con", "Int", "Sab", "Car", "Asp")
+caract_nomb = características # Trabajaremos con una copia de la lista
+
 def tirada_fraccional():
     """Devuelve el valor fraccional en percentiles de cada característica"""
     lanzamientosD100 = [] #inicializamos una lista vacía
